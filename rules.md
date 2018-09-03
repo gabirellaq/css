@@ -72,6 +72,7 @@
     -webkit-line-clamp: $clamp;
     overflow:hidden;
   }
+  ......
 ```
 
 ### 重置
@@ -122,16 +123,17 @@ body {
 
 ### 全局样式
 ```
-@import "variables";
-@import "font";
-@import "reset";
-@import "elereset";
-@import "iconfont/iconfont";
+-- common.scss
+  @import "variables";
+  @import "font";
+  @import "reset";
+  @import "elereset";
+  @import "iconfont/iconfont";
 
-body {
-  font-size: $font-size-base;
-  background: $body-bg;
-  color: $body-color;
-}
-......
+  body {
+    font-size: $font-size-base;
+    background: $body-bg;
+    color: $body-color;
+  }
+  ......
 ```
