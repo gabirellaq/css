@@ -40,6 +40,13 @@ $text-overflow-ellipsis-size: (2, 3, 4, 5, 6, 7, 8, 9, 10)
 text-overflow-ellipsis   // 单行截取
 text-overflow-ellipsis-2 // 多行截取
 ```
+
+## 背景
+```
+background-color-white     // 背景白色
+background-color-white-8   // 背景 #f8f8f8
+```
+
 ## 间距
 ```
 $space: (6, 8, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 
