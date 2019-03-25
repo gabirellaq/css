@@ -5,7 +5,7 @@
 
 ## 字体
 ```
-字体大小样式可选以下样式-------------------------
+字体大小
 $font-size: (12, 14, 16, 18, 20, 22, 24, 26,
 28, 30, 32, 34, 36, 38, 40, 42,
 44, 46, 48, 50, 52, 54, 56, 58, 60, 62,
@@ -21,24 +21,40 @@ font-size-14
 ...
 font-size-78
 
-字体粗细--------------------------------------------------------
+字体粗细
 font-weight-bold 
 font-weight-normal
 
-字体颜色---------------------------------------------------------
+字体颜色
 font-color-normal      // 默认字体颜色#54585A
 font-color-title       // 标题字体颜色#2A2C2D
 font-color-description // 描述字体颜色#7E8487
 
-字体对齐方式-------------------------------------------------------
+字体对齐方式
 text-align-left        // 左对齐
 text-align-right       // 右对齐
 text-align-center      // 居中对齐
 
-字体截取-----------------------------------------------------------
+字体截取
 $text-overflow-ellipsis-size: (2, 3, 4, 5, 6, 7, 8, 9, 10)
-text-overflow-ellipsis   // 单行截取
-text-overflow-ellipsis-2 // 多行截取
+text-overflow-ellipsis   // 单行截取...
+text-overflow-ellipsis-2 // 多行截取...
+```
+
+## color
+```
+color-black         // color #000;
+color-black-2A      // color #2A2C2D;
+color-grey-54       // color #54585A;
+color-grey-7E       // color #7E8487;
+color-grey-DC       // color #dcdcdc;
+color-white         // color #fff;
+color-white-8       // color #f8f8f8;
+color-nio           // color #00BCBC;
+color-danger        // color #FF231E;
+color-success       // color #28a745;
+color-warning       // color #ffc107;
+color-rose-red      // color #e83e8c;
 ```
 
 ## 背景
