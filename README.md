@@ -98,5 +98,12 @@ justify-content-flex-end       // 主轴 从行尾位置开始排列
 flex-wrap                      // 换行
 flex-wrap-reverse              // 反项换行
 
+$flex: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12);
+flex-1                         // 弹性元素的伸缩比
+flex-2
+flex-3
+...
+flex-12
+
 ```
 
