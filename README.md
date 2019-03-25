@@ -55,6 +55,27 @@ padding-top-6
 padding-bottom-6
 ```
 
+## 边框
+```
+border-left     // 1px solid #dcdcdc
+border-right
+border-top
+border-bottom
+```
+
+## 圆角
+```
+$border-radius: (4, 6, 8, 10, 12, 14, 16, 18, 20);
+border-radius-4        // border-raius: 4px;
+...
+border-radius-20
+border-radius-left-4   // border-radius: 0 0 0 4px;
+border-radius-right-4
+border-radius-top-4
+border-radius-bottom-4
+...
+```
+
 ## 布局
 ```
 宽高
@@ -65,7 +86,17 @@ height-100
 overflow-hidden
 overflow-auto
 
-
+布局
+display-flex                   // flex布局 默认横向排列，双轴靠左
+display-flex-column            // flex布局 竖向排列，双轴靠左
+align-items-center             // 元素在侧轴居中
+align-items-flex-end           // 元素向侧轴终点对齐
+justify-content-center         // 主轴 居中排列
+justify-content-space-around   // 主轴 均匀排列每个元素 每个元素周围分配相同的空间
+justify-content-space-between  // 主轴 均匀排列每个元素 首个元素放置于起点，末尾元素放置于终点
+justify-content-flex-end       // 主轴 从行尾位置开始排列
+flex-wrap                      // 换行
+flex-wrap-reverse              // 反项换行
 
 ```
 
