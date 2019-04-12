@@ -68,10 +68,12 @@ background-color-white-8   // 背景 #f8f8f8
 $space: (6, 8, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 
 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60);
 举例：
+margin-6
 margin-left-6
 margin-right-6
 margin-top-6
 margin-bottom-6
+padding-6
 padding-left-6
 padding-right-6
 padding-top-6
@@ -119,7 +121,7 @@ justify-content-space-around   // 主轴 均匀排列每个元素 每个元素�
 justify-content-space-between  // 主轴 均匀排列每个元素 首个元素放置于起点，末尾元素放置于终点
 justify-content-flex-end       // 主轴 从行尾位置开始排列
 flex-wrap                      // 换行
-flex-wrap-reverse              // 反项换行
+flex-wrap-reverse              // 反向换行
 
 $flex: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12);
 flex-1                         // 弹性元素的伸缩比
